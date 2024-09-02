@@ -65,6 +65,24 @@ main {
     flex: 1;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.container_texto {
+    max-width: 25rem;
+    text-align: justify;
+}
+
+.container img {
+    max-width: 23rem;
+    height: auto;
+    border-radius: 30px;
+}
+
 footer {
     background-color: var(--cor-fundo-terciario);
     color: var(--cor-texto-claro);
