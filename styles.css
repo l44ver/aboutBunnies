@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-fundo-primario: #fff1f1;
+    --cor-fundo-secundario: #ffdfe1;
+    --cor-fundo-terciario: #FFCACD;
+    
+    --cor-texto: #222222;
+    --cor-texto-claro: #3a3a3a;
+    
+    --cor-primaria: #e29599;
+    --cor-hover-primaria: #db7278;
+
+    --fonte-principal: "Chakra Petch", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--cor-fundo-terciario);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sidebar {
+    background-color: var(--cor-fundo-secundario);
+    padding: 18px;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: bold;
+}
+
+main {
+    background-color: var(--cor-fundo-primario);
+    margin-left: 220px; /* deixa espaço para o menu lateral */
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background-color: var(--cor-fundo-terciario);
+    color: var(--cor-texto-claro);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) { /* para dispositivos móveis */
+    .sidebar {
+        display: none;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .menu-button {
+        display: block;
+        background-color: red;
+        color: green;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        width: 100%;
+    }
+}
