@@ -22,6 +22,7 @@
 
 body {
     font-family: var(--fonte-principal);
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -36,12 +37,27 @@ header {
 
 .sidebar {
     background-color: var(--cor-fundo-secundario);
+    font-size: 1.4rem;
     padding: 18px;
-    width: 220px;
+    width: 15%;
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    height: auto;
+}
+
+.sidebar ul li a:hover {
+    background-color:  var(--cor-fundo-terciario);
+    border-radius: 30px;
 }
 
 .sidebar ul {
@@ -49,7 +65,7 @@ header {
 }
 
 .sidebar ul li {
-    margin: 15px 0;
+    margin: 15% 10%;
 }
 
 .sidebar ul li a {
@@ -58,40 +74,89 @@ header {
     font-weight: bold;
 }
 
+.sidebar ul li a img.icon{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
 main {
     background-color: var(--cor-fundo-primario);
-    margin-left: 220px; /* deixa espaço para o menu lateral */
+    margin-left: 15%; /* deixa espaço para o menu lateral */
     padding: 20px;
-    flex: 1;
+    overflow: auto; /* permite rolagem vertical */
+    min-height: 100vh; /* Garante que o main ocupe ao menos toda a altura da viewport */
 }
 
 .container {
+    font-size: 1.4rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10rem;
+    flex-direction: column; 
+    gap: 5rem; /* texto + imagem -- caixa de pergunta */
+}
+
+.container_conteudo {
+    display: flex;
+    justify-content: center; /* centraliza os itens horizontalmente */
+    align-items: center; /* centraliza os itens verticalmente */
+    gap: 6rem; /* texto -- imagem */
 }
 
 .container_texto {
     max-width: 25rem;
-    text-align: justify;
+    text-align: left;
+}
+
+.container h2 {
+    margin-bottom: 2rem;
 }
 
 .container img {
-    max-width: 23rem;
+    max-width: 70rem;
     height: auto;
     border-radius: 30px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+section input {
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--cor-texto-secundario);
+    font-size: 1rem;
+}
+
+section button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    cursor: pointer; /* muda o cursor para indicar que é clicável */
+}
+
+section button:hover {
+    background-color: var(--cor-hover-primaria);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sompra leve ao passar o mouse */
+
 footer {
     background-color: var(--cor-fundo-terciario);
     color: var(--cor-texto-claro);
+    font-size: 1rem;
     text-align: center;
     padding: 10px 0;
-    margin-top: auto;
 }
 
-@media (max-width: 768px) { /* para dispositivos móveis */
+@media (max-width: 1384px) { /* para dispositivos móveis */
     .sidebar {
         display: none;
     }
@@ -102,8 +167,8 @@ footer {
 
     .menu-button {
         display: block;
-        background-color: red;
-        color: green;
+        background-color: var(--cor-primaria);
+        color: var(--cor-texto);
         padding: 10px;
         text-align: center;
         cursor: pointer;
