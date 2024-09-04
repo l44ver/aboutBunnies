@@ -5,8 +5,8 @@
     --cor-fundo-secundario: #fff1f1;
     --cor-fundo-terciario: #FFCACD;
     
-    --cor-texto: #292929;
-    --cor-texto-claro: #4e4e4e;
+    --cor-texto: #474747;
+    --cor-texto-claro: #6b6b6b;
     --cor-link: #964dd3;
     
     --cor-primaria: #e9a0a4;
@@ -60,8 +60,9 @@ header {
 }
 
 .sidebar ul li a:hover {
-    background-color:  var(--cor-fundo-terciario);
-    border-radius: 30px;
+    border-radius: 0.5rem;
+    background-color: var(--cor-fundo-terciario);
+
 }
 
 .sidebar ul {
@@ -76,6 +77,8 @@ header {
     text-decoration: none;
     color: var(--cor-texto);
     font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer; /* muda o cursor para indicar que é clicável */
 }
 
 .sidebar ul li a img.icon{
@@ -122,7 +125,7 @@ main {
 .container img {
     max-width: 35rem;
     height: auto;
-    border-radius: 30px;
+    border-radius: 0.rem;
 }
 
 section {
@@ -136,7 +139,7 @@ section input {
     width: 30rem;
     border: none;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin-bottom: 1rem;
     color: var(--cor-texto-secundario);
     font-size: 1rem;
@@ -145,9 +148,9 @@ section input {
 section button {
     padding: 0.8rem 1.2rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    color: var(--cor-texto);
     font-size: 1rem;
     cursor: pointer; /* muda o cursor para indicar que é clicável */
 }
@@ -201,16 +204,26 @@ section button:hover {
     background-color: var(--cor-fundo-terciario);
     color: var(--cor-texto-claro);
     font-size: 1rem;
-    text-align: center;
-    padding: 1.2rem 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-.rodape_nav img {
+.rodape_texto {
+    color: black;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+
+.rodape_ancoras img {
     max-width: 1.3rem;
     height: auto;
+    margin-left: 1rem;
 }
 
-@media (max-width: 1150px) { /* para dispositivos móveis */
+@media (max-width: 1300px) { /* para dispositivos menores */
     .sidebar {
         display: none;
     }
@@ -220,7 +233,7 @@ section button:hover {
     }
     
     .container {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .container_conteudo {
@@ -229,7 +242,7 @@ section button:hover {
     }
 
     .container img {
-        max-width: 20rem;
+        max-width: 25rem;
         height: auto;
     }
 
@@ -242,5 +255,9 @@ section button:hover {
         cursor: pointer;
         border: none;
         width: 100%;
+    }
+
+    .container_pesquisa {
+
     }
 }
