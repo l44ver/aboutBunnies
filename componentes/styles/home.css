@@ -1,0 +1,107 @@
+@import url("styles.css");
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 5rem; /* texto + imagem -- caixa de pergunta */
+}
+
+.container_conteudo {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem; /* texto -- imagem */
+    margin-top: 4%;
+}
+
+.container_conteudo_texto {
+    max-width: 25rem;
+    text-align: left;
+}
+
+.container h2 {
+    color: var(--cor-texto);
+    margin-bottom: 2rem;
+}
+
+.container img {
+    width: 30rem;      
+    height: auto;     
+    border-radius: 1.7rem; 
+    border: 4px solid var(--cor-fundo-terciario);
+    padding: 0.6rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+section input {
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--cor-texto-secundario);
+    font-size: 1rem;
+}
+
+section button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    font-size: 1rem;
+    cursor: pointer; /* muda o cursor para indicar que é clicável */
+}
+
+section button:hover {
+    background-color: var(--cor-hover-primaria);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sompra leve ao passar o mouse */
+}
+
+.container_pesquisa {
+    width: 70rem;
+    height: 46vh;
+    overflow-y: auto; /* adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* espaçamento acima da caixa de resultados */
+    padding: 1rem;
+}
+
+.container_pesquisa_digita {
+    border: 1.5px dashed var(--cor-hover-primaria); /* persolanizei minha propria borda */
+    outline: none; /* tirei a borda que aparece quando vai digitar */
+}
+
+.container_pesquisa_resultado {
+    background: var(--cor-fundo-primario);
+    border: 2px solid var(--cor-fundo-terciario);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* sombra leve */
+}
+
+.container_pesquisa_resultado h2 {
+    color: var(--cor-texto);
+}
+
+.container_pesquisa_resultado a {
+    text-decoration: none; /* remove o sublinhado padrão dos links */
+    color: var(--cor-link);
+}
+
+.container_pesquisa_resultado a:hover {
+    text-decoration: underline; /* adiciona sublinhado ao passar o mouse */
+}
+
+.container_resultado_descricao {
+    color: var(--cor-texto-secundario);
+    margin: 0rem 1.5rem 1.5rem 0; /* margem nas laterais do texto */
+}
