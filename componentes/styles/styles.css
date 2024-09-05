@@ -32,6 +32,15 @@ body {
     min-height: 100vh;
 }
 
+main {
+    background-color: var(--cor-fundo-primario);
+    color: var(--cor-texto-claro);
+    margin-left: 15%; /* deixa espaço para o menu lateral */
+    padding-top: 5rem;
+    overflow: auto; /* permite rolagem vertical */
+    min-height: 100vh; /* garante que o main ocupe ao menos toda a altura da viewport */
+}
+
 .container {
     display: flex;
     flex-direction: column; 
@@ -114,15 +123,6 @@ body {
     width: 20px;
     height: auto;
     margin-right: 10px;
-}
-
-main {
-    background-color: var(--cor-fundo-primario);
-    color: var(--cor-texto-claro);
-    margin-left: 15%; /* deixa espaço para o menu lateral */
-    padding-top: 5rem;
-    overflow: auto; /* permite rolagem vertical */
-    min-height: 100vh; /* garante que o main ocupe ao menos toda a altura da viewport */
 }
 
 .rodape {

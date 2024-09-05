@@ -4,7 +4,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 section input {
@@ -36,22 +36,12 @@ section button:hover {
     width: 70rem;
     height: 46vh;
     overflow-y: auto; /* adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* espaçamento acima da caixa de resultados */
-    padding: 1rem;
+    padding: 1.5rem; /* o quao estreito a caixa sera */
 }
 
 .container_pesquisa_digita {
     border: 1.5px dashed var(--cor-hover-primaria); /* persolanizei minha propria borda */
     outline: none; /* tirei a borda que aparece quando vai digitar */
-}
-
-.container_pesquisa_resultado {
-    background: var(--cor-fundo-primario);
-    border: 2px solid var(--cor-fundo-terciario);
-    border-radius: 0.6rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* sombra leve */
 }
 
 .container_pesquisa_resultado h2 {
@@ -70,4 +60,14 @@ section button:hover {
 .container_resultado_descricao {
     color: var(--cor-texto-secundario);
     margin: 0rem 1.5rem 1.5rem 0; /* margem nas laterais do texto */
+}
+
+.item-resultado{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: var(--cor-fundo-primario);
+    border: 2px solid var(--cor-fundo-terciario);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
