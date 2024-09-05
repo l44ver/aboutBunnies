@@ -1,1 +1,22 @@
 @import url("styles.css");
+
+.container {
+    padding-bottom: 5rem;
+}
+
+.container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.container img {
+    width: 30rem;
+    height: 17rem; /* nao estar no "auto" faz esticar a foto, mas deixei assim para ficarem todas do mesmo tamanho */
+} /* futuramente da pra cortar uma por uma para ficarem iguais */

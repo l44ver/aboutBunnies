@@ -68,7 +68,7 @@ main {
 }
 
 .container img {
-    width: 30rem;      
+    width: 22rem;      
     height: auto;     
     border-radius: 1.7rem; 
     border: 4px solid var(--cor-fundo-terciario);
@@ -148,28 +148,13 @@ main {
     margin-left: 1rem;
 }
 
-/* REFAZER */
-@media (max-width: 1300px) { /* para dispositivos menores */
-    .sidebar {
-        display: none;
-    }
-
+@media (max-width: 1300px) { /* A SER IMPLEMENTADO */
     main {
         margin-left: 0;
     }
     
-    .container {
-        font-size: 1.1rem;
-    }
-
-    .container_conteudo {
-        font-size: 1.1rem;
-        gap: 1rem;
-    }
-
-    .container img {
-        max-width: 17rem;
-        height: auto;
+    .sidebar {
+        display: none;
     }
 
     .menu-button {

@@ -36,7 +36,8 @@ section button:hover {
     width: 70rem;
     height: 46vh;
     overflow-y: auto; /* adiciona rolagem vertical se necessário */
-    padding: 1.5rem; /* o quao estreito a caixa sera */
+    padding-left: 5rem; /* o quao estreito a caixa sera */
+    padding-right: 5rem; /* o quao estreito a caixa sera */
 }
 
 .container_pesquisa_digita {

@@ -13,4 +13,4 @@ a colocar: link do github pages
 
 ## ⚙ Principais recursos
 * Sistema de pesquisa
-* Layout responsivo
+* Layout responsivo (A ser implementado)
