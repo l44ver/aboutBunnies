@@ -2,4 +2,4 @@
 Desenvolva um projeto do zero com a ajuda do Gemini, usando apenas HTML, CSS e JS
 
 # Projeto
-Oii! Me chamo Lauren, e estou participando desta imersão, fazendo um site sobre coelhos!
+Oii! Me chamo Lauren, e estou participando desta imersão, fazendo um site sobre coelhos, e aprendendo um pouco mais sobre front-end!

@@ -225,6 +225,7 @@ section button:hover {
     margin-left: 1rem;
 }
 
+/* REFAZER ISSO AQUI */
 @media (max-width: 1300px) { /* para dispositivos menores */
     .sidebar {
         display: none;
