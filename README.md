@@ -1,5 +1,16 @@
-# Imersão Dev 2024 - Alura + Google Gimini
-Desenvolva um projeto do zero com a ajuda do Gemini, usando apenas HTML, CSS e JS
+# Imersão Dev - Alura + Google Gimini
 
-# Projeto
-Oii! Me chamo Lauren, e estou participando desta imersão, fazendo um site sobre coelhos, e aprendendo um pouco mais sobre front-end!
+## 🗒 Descrição
+Oiie, me chamo Lauren. E para essa imersão, fiz um site sobre coelhos, no qual você pode vizualizar diversas raças para ter de estimação, quais alimentos eles podem consumir, link que te leva para outro site que fala mais aprofundamente sobre a raça, e imagens para aprecia-los.
+
+### 💻 Demo
+a colocar: link do github pages
+
+## 🛠 Tecnologias
+* HTML
+* CSS
+* JavaScript
+
+## ⚙ Principais recursos
+* Sistema de pesquisa
+* Layout responsivo
