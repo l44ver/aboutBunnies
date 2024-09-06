@@ -17,21 +17,6 @@ section input {
     font-size: 1rem;
 }
 
-section button {
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: var(--cor-primaria);
-    color: var(--cor-texto);
-    font-size: 1rem;
-    cursor: pointer; /* muda o cursor para indicar que é clicável */
-}
-
-section button:hover {
-    background-color: var(--cor-hover-primaria);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sompra leve ao passar o mouse */
-}
-
 .container_pesquisa {
     width: 70rem;
     height: 46vh;
@@ -41,20 +26,22 @@ section button:hover {
 }
 
 .container input {
-    border: 1.5px dashed var(--cor-hover-primaria); /* persolanizei minha propria borda */
+    background-color: var(--cor-fundo-primario);
+    color: var(--cor-texto-claro);
+    border: 1.5px dashed var(--cor-primaria); /* persolanizei minha propria borda */
     outline: none; /* tirei a borda que aparece quando vai digitar */
 }
 
-.container_pesquisa_resultado h2 {
+.container_pesquisa h2 {
     color: var(--cor-texto);
 }
 
-.container_pesquisa_resultado a {
+.container_pesquisa a {
     text-decoration: none; /* remove o sublinhado padrão dos links */
     color: var(--cor-link);
 }
 
-.container_pesquisa_resultado a:hover {
+.container_pesquisa a:hover {
     text-decoration: underline; /* adiciona sublinhado ao passar o mouse */
 }
 

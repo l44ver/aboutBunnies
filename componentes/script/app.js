@@ -4,7 +4,7 @@ function pesquisar() {
     let campoPesquisa = document.getElementById ("campo_pesquisa").value
 
     if (!campoPesquisa) { // se campoPesquisa for uma string sem nada
-        section.innerHTML = "<p>Nada foi encontrado.</p>"
+        section.innerHTML = "<p>Nada foi encontrado, verifique sua escrita</p>"
         return 
     }
 
@@ -33,7 +33,7 @@ function pesquisar() {
         }
     }
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p>Nada foi encontrado no nosso banco de dados</p>"
     }
     section.innerHTML = resultados // atribui os resultados gerados no HTML
 }
