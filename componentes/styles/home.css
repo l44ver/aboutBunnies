@@ -40,7 +40,7 @@ section button:hover {
     padding-right: 5rem; /* o quao estreito a caixa sera */
 }
 
-.container_pesquisa_digita {
+.container input {
     border: 1.5px dashed var(--cor-hover-primaria); /* persolanizei minha propria borda */
     outline: none; /* tirei a borda que aparece quando vai digitar */
 }
@@ -63,7 +63,7 @@ section button:hover {
     margin: 0rem 1.5rem 1.5rem 0; /* margem nas laterais do texto */
 }
 
-.item-resultado{
+.item_resultado{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background: var(--cor-fundo-primario);
     border: 2px solid var(--cor-fundo-terciario);
