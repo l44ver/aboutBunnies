@@ -1,7 +1,7 @@
 # Imersão Dev - Alura + Google Gemini
 
 ## 📝 Descrição
-Para essa imersão, fiz um site sobre coelhos, no qual você pode vizualizar diversas raças para ter de estimação, quais alimentos eles podem consumir, link que te leva para outro site que fala mais aprofundamente sobre a raça, e imagens para aprecia-los.
+Para essa imersão, fiz um site sobre coelhos, no qual você pode vizualizar diversas raças para ter de estimação, quais alimentos eles podem consumir, link que te leva para outro site que fala mais aprofundamente sobre a raça, e imagens para aprecia-los, com um sistema de pesquisa funcional.
 
 ### 💻 Demo
 GitHub Pages: https://l44ver.github.io/imersaoDev/
@@ -16,9 +16,6 @@ Vercel: (a colocar)
 * HTML
 * CSS
 * JavaScript
-
-## 📲 Principais recursos
-* Sistema de pesquisa
 
 ## 💭 Processo de criação
 DIA 1: Após finalizar a primeira aula, comecei a pensar em qual tema fazer meu projeto, e logo de cara veio coelhos na cabeça, mas ainda nao sabia exatamente o que fazer. Então apenas pedi pro Gemini me ajudar a fazer um menu lateral, peguei o que ele me mandou e ajustei para ficar do jeito que eu queria, como o tamanho do sidebar, das letras e espaçamento, tambem fiz uma paleta de cores.
