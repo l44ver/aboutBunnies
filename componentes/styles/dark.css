@@ -1,0 +1,36 @@
+.dark_theme {
+    --cor-fundo-primario: #505050;
+    --cor-fundo-secundario: #585858;
+    --cor-fundo-terciario: #7333bb;
+    
+    --cor-texto: #f0f0f0;
+    --cor-texto-claro: #d3d3d3;
+    --cor-link: #5f7ed3;
+    
+    --cor-primaria: #8f4eda;
+    --cor-hover-primaria: #5b1ea0;
+}
+
+.dark_theme #logo {
+    content: url('../../imagens/logo/logoBranca.png');
+}
+
+.dark_theme #home_icon {
+    content: url('../../imagens/sidebar/homeBranca.png');
+}
+
+.dark_theme #coelho_icon {
+    content: url('../../imagens/sidebar/coelhoBranca.png');
+}
+
+.dark_theme #help_icon {
+    content: url('../../imagens/sidebar/helpBranca.png');
+}
+
+.dark_theme #images_icon {
+    content: url('../../imagens/sidebar/imagesBranca.png');
+}
+
+.dark_theme #user_icon {
+    content: url('../../imagens/sidebar/userBranca.png');
+}
