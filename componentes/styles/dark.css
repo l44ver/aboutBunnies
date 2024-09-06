@@ -19,10 +19,6 @@
     content: url('../../imagens/sidebar/homeBranca.png');
 }
 
-.dark_theme #coelho_icon {
-    content: url('../../imagens/sidebar/coelhoBranca.png');
-}
-
 .dark_theme #help_icon {
     content: url('../../imagens/sidebar/helpBranca.png');
 }
