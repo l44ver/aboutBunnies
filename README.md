@@ -10,13 +10,16 @@ GitHub Pages: https://l44ver.github.io/imersaoDev/
 Vercel: https://imersao-dev-teal.vercel.app/
 
 ### 👩‍💻 A ser implementado
-* Layout responsivo
 * Tela de dúvidas frequentes, como quais alimentos eles podem consumir e cuidados essenciais
 
 ## 🔧 Tecnologias
 * HTML
 * CSS
 * JavaScript
+
+## Principais recursos
+* Layout responsivo
+* Sistema de pesquisa
 
 ## 💭 Processo de criação
 DIA 1: Após finalizar a primeira aula, comecei a pensar em qual tema fazer meu projeto, e logo de cara veio coelhos na cabeça, mas ainda nao sabia exatamente o que fazer. Então apenas pedi pro Gemini me ajudar a fazer um menu lateral, peguei o que ele me mandou e ajustei para ficar do jeito que eu queria, como o tamanho do sidebar, das letras e espaçamento, aproveitei para ajustar um footer e header junto, depois fiz uma paleta de cores.
