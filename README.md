@@ -9,6 +9,8 @@ GitHub Pages: https://l44ver.github.io/imersaoDev/
 
 Vercel: https://imersao-dev-teal.vercel.app/
 
+Dicas de pesquisa: raça, mini, grande, pelo, orelha, pontuda, panda
+
 ### 👩‍💻 A ser implementado
 * Tela de dúvidas frequentes, como quais alimentos eles podem consumir e cuidados essenciais
 
