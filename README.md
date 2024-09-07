@@ -17,7 +17,7 @@ Vercel: https://imersao-dev-teal.vercel.app/
 * CSS
 * JavaScript
 
-## Principais recursos
+## 📲 Principais recursos
 * Layout responsivo
 * Sistema de pesquisa
 
